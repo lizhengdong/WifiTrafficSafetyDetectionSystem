@@ -1,0 +1,11 @@
+.erro-row .x-grid-cell {
+            background-color: yellow !important;
+}
+
+.access-row .x-grid-cell{
+            background-color: red !important;
+}
+
+.normal-row .x-grid-cell{
+            background-color: white !important;
+}

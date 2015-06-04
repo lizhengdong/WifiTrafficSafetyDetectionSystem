@@ -1,0 +1,5 @@
+2014-12-12 11:02:178 准备执行Shell命令 /usr/local/raywork/startwifi.sh 
+进程号：java.lang.UNIXProcess@4272111
+2014-12-12 11:02:361 Shell命令执行完毕
+执行结果为：
+net.ipv4.ip_forward = 1

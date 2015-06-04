@@ -1,0 +1,10 @@
+Address                  HWtype  HWaddress           Flags Mask            Iface
+192.168.26.22                    (incomplete)                              wlp0s29f7u3
+222.199.225.83           ether   b8:88:e3:35:e2:15   C                     p33p1
+192.168.26.20            ether   0c:ee:e6:9e:cd:26   C                     wlp0s29f7u3
+222.199.225.200          ether   e4:11:5b:3d:e2:03   C                     p33p1
+222.199.225.1            ether   58:66:ba:81:d0:a0   C                     p33p1
+192.168.26.15            ether   00:22:fb:a5:91:34   C                     wlp0s29f7u3
+222.199.225.44           ether   3c:97:0e:83:3b:0f   C                     p33p1
+222.199.225.43           ether   20:6a:8a:25:84:0d   C                     p33p1
+222.199.225.241          ether   00:22:64:70:4a:28   C                     p33p1

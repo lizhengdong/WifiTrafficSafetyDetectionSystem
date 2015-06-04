@@ -1,0 +1,61 @@
+
+.houfei-userManagerIcon
+{
+	background-image: url(../images/icons/userManage.png) !important;
+}
+.houfei-checkIcon
+{
+	background-image: url(../images/icons/check_edit.png) !important;
+}
+.houfei-searchIcon
+{
+	background-image: url(../images/icons/search.png) !important;
+}
+.houfei-tbarCancelIcon
+{
+	background-image: url(../images/icons/delete.png) !important;
+}
+.houfei-treeRootIcon
+{
+	background-image: url(../images/icons/treeNodePackage.png) !important;
+}
+
+.houfei-treeNodeLeafIcon
+{
+	background-image: url(../images/icons/treeNodeLeafIcon.png) !important;
+}
+
+.houfei-treeNodePackageIcon
+{
+	background-image: url(../images/icons/treeNodePackage.png) !important;
+}
+
+.houfei-closeCurrentTab
+{
+	background-image: url(../images/icons/closeCurrentTab.png) !important;
+}
+
+.houfei-closeOtherTab
+{
+	background-image: url(../images/icons/closeOtherTab.png) !important;
+}
+
+.houfei-homeTabIcon
+{
+	background-image: url(../images/icons/indexicon.gif) !important;
+}
+
+.houfei-addicon
+{
+	background-image: url(../images/icons/add.png) !important;
+}
+
+.houfei-editicon
+{
+	background-image: url(../images/icons/edit.png) !important;
+}
+
+.houfei-refreshIcon
+{
+	background-image: url(../images/icons/refreshIcon.png) !important;
+}

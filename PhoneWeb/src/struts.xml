@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+
+	<package name="buct.fjm" extends="struts-default">
+		<action name="showNode" class="showNode">
+		</action>
+		<action name="showPkg" class="showPkg">
+		</action>
+		<action name="getAccess" class="getAccess">
+		</action>
+		<action name="listUri" class="listUri">
+		</action>
+		<action name="getAddress" class="getAddress">
+		</action>
+		<action name="showTPkg" class="showTPkg">
+		</action>
+		<action name="startTPkg" class="startTPkg">
+		</action>
+		<action name="endTPkg" class="endTPkg">
+		</action>
+		<action name="showMac" class="showMac">
+		</action>
+		<action name="login" class="login">
+		<result name="success">/index.jsp</result>
+		<result name="failure">/login.jsp</result>
+		</action>
+		<action name="editConfig" class="editConfig">
+		</action>
+		<action name="showConfig" class="showConfig">
+		</action>
+		<action name="updateAccess" class="updateAccess">
+		</action>
+		<action name="addAccess" class="addAccess">
+		</action>
+		<action name="deleteAccess" class="deleteAccess">
+		</action>
+		<action name="GetWifiConfig" class="GetWifiConfig">
+		</action>
+		<action name="changePassword" class="changePassword">
+		</action>
+		<action name="identifyPassword" class="identifyPassword">
+		</action>
+		<action name="wifiSafetyConfig" class="wifiSafetyConfig">
+		</action>
+		<action name="setDhcp" class="setDhcp">
+		</action>
+		<action name="showWifiBasicConfig" class="showWifiBasicConfig">
+		</action>
+		<action name="showDhcpConfig" class="showDhcpConfig">
+		</action>
+		<action name="setWifiBasicConfig" class="setWifiBasicConfig">
+		</action>
+		<action name="restartDevice" class="restartDevice">
+		</action>
+		<action name="shutDownDevice" class="shutDownDevice">
+		</action>
+		<action name="RecentDaysTraffic" class="RecentDaysTraffic">
+		</action>
+		<action name="UpDownstreamTraffic" class="UpDownstreamTraffic">
+		</action>
+		<action name="AllTrafficPropotion" class="AllTrafficPropotion">
+		</action>
+		<action name="changePkgMode" class="changePkgMode">
+		</action>
+		<action name="getClientList" class="getClientList">
+		</action>
+		<action name="getTPkgMac" class="getTPkgMac">
+		</action>
+		<action name="showPkgByMac" class="showPkgByMac">
+		</action>
+		<action name="exportXsl" class="exportXsl">		
+			<result name="success" type="stream">
+			<param name="contentType">application/vnd.ms-excel</param>
+			<param name="contentDisposition">attachment;filename="examineReport.xls"</param>
+			<param name="inputName">excelFile</param>
+			</result>
+		</action> 
+		<action name="dialPPPOE" class="dialPPPOE">
+		</action>
+		<action name="stopPPPOE" class="stopPPPOE">
+		</action>
+		<action name="resetAll" class="resetAll">
+		</action>
+		<action name="setPPPOEParameter" class="setPPPOEParameter">
+		</action>
+		<action name="showPPPOEParameter" class="showPPPOEParameter">
+		</action>
+		<action name="logout" class="logout">
+		<result name="success">/login.jsp</result>
+		</action>
+	</package>
+
+
+</struts>
+	

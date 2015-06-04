@@ -1,0 +1,3 @@
+#!/bin/bash
+rfkill unblock wifi
+sh /home/lihui/startwifi.sh

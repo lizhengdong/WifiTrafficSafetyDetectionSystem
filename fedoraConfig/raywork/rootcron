@@ -1,0 +1,2 @@
+#runned every 10 minutes
+0,10,20,30,40,50 * * * * /usr/local/raywork/testnetwork.sh

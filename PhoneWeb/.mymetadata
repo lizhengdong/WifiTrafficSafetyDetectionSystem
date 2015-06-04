@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="PhoneWeb"
+  id="myeclipse.1400810493730"
+  context-root="/PhoneWeb"
+  j2ee-spec="5.0"
+  archive="PhoneWeb.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

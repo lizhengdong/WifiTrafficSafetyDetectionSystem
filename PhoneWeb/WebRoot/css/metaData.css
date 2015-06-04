@@ -1,0 +1,12 @@
+.status-good
+{
+	background:url(images/icons/status-good.png) 20px no-repeat !important;
+}
+.status-fine
+{
+	background:url(images/icons/status-fine.png) 20px no-repeat !important;
+}
+.status-bad
+{
+	background:url(images/icons/status-bad.png) 20px no-repeat !important;
+} 
